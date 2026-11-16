@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7676b7e1-ad82-4198-9439-39b1c36290a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Noura - Poem record">
+      <UniqueIdentifier>{1173f3ed-9210-4839-a18d-8474728fc2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rafa - Sorted linked list">
+      <UniqueIdentifier>{5cabb8b3-8903-40ce-8633-adc2d230829e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shahad - Search">
+      <UniqueIdentifier>{90cf8b08-dcb1-41fc-b4cb-5c4f1b993a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layan - Statistics">
+      <UniqueIdentifier>{6968af62-9218-4351-8c67-55a96f4c5b87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>Main</Filter></ClCompile>
+    <ClCompile Include="Part_Noura.cpp"><Filter>Noura - Poem record</Filter></ClCompile>
+    <ClCompile Include="Part_Rafa.cpp"><Filter>Rafa - Sorted linked list</Filter></ClCompile>
+    <ClCompile Include="Part_Shahad.cpp"><Filter>Shahad - Search</Filter></ClCompile>
+    <ClCompile Include="Part_Layan.cpp"><Filter>Layan - Statistics</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Part_Noura.h"><Filter>Noura - Poem record</Filter></ClInclude>
+    <ClInclude Include="Part_Rafa.h"><Filter>Rafa - Sorted linked list</Filter></ClInclude>
+    <ClInclude Include="Part_Shahad.h"><Filter>Shahad - Search</Filter></ClInclude>
+    <ClInclude Include="Part_Layan.h"><Filter>Layan - Statistics</Filter></ClInclude>
+  </ItemGroup>
+</Project>

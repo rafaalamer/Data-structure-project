@@ -33,3 +33,7 @@ time without a fixed size, and the list is traversed to filter by meter, rhyme, 
 5. Update a poem's memorization status
 6. Display all poems (sorted by era, then poet)
 7. Exit
+
+## GUI design (bonus)
+Figma design of the interface (6 screens: Dashboard, Add poem, Search, Mu'allaqat, Statistics, Update status):
+https://www.figma.com/design/XOoUDe1prxdpHfcNS3IpYG
